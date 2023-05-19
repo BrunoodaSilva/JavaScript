@@ -12,17 +12,20 @@
         <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            <input type="number" name="inicioin" id="inicioin">
+        <div id="dados">
+            <p> <label for="txtin">Inicio: </label>
+                <input type="number" name="inicio" id="txtin">
+            </p>
+            <p><label for="txtfim">Fim: </label>
+                <input type="number" name="fim" id="txtfim">
+            </p>
+            <p><label for="txtpas">Passo: </label>
+                <input type="number" name="Passo" id="txtpas">
+            </p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
-        <div>
-            <input type="number" name="fimin" id="fimin">
-        </div>
-        <div>
-            <input type="number" name="passoin" id="passoin">
-        </div>
-        <div>
-            <input type="submit" value="Contar">
+        <div id="res">
+            <p>Preparando para contar</p>
         </div>
     </section>
     <footer>
